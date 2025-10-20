@@ -1,0 +1,136 @@
+/* ---------- NAVBAR STYLING ---------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;  /* pushes left/right apart */
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px; 
+ 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+.navbar-left a {
+  font-size: 20px;          /* bigger than the right links */
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.navbar a:hover {
+  color: rgb(113, 185, 233);
+}
+
+h1{
+    font-family: sans-serif; 
+}
+
+/* ---------- ABOUT ---------- */
+
+/* ---- intro*/
+.intro{
+    display: flex; /*side by soide*/
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding : 115px 100px;
+    font-weight: 350;
+  
+}
+
+.intro-text p {
+    margin-top: 5px;       
+    margin-bottom: 0;     
+    line-height: 1.5;      
+    font-size: 20px;
+    text-align: center;
+}
+
+.intro-text h4 {
+    margin-bottom: 2px;   
+    margin-top: 2px;
+    line-height: 1.2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.intro-text h4:hover{
+    color: rgb(113, 185, 233);
+}
+
+.intro-image img{
+    width: 75%;
+    max-width: 300px;
+    border-radius: 15px;
+    display: block;
+}
+
+.linked-logos{ /* cant use flex on img */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+
+.linked-logos img{
+    width:30px;
+    height : auto;
+    border-radius: 10px;  
+    
+
+}
+
+
+/* ---- about*/
+.about{
+    padding : 10px 20px;
+    text-align: center;
+    margin-top: 30px; 
+    background-color: #dde9f6; 
+    font-weight: 100;
+
+  
+}
+
+.about h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.about p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+/*------------FOOOTER----------*/
+.footer{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 100px 15px;
+    text-align:end;
+}
+
+/*------------NOTICE------------*/
+.notice{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    text-align: end;
+    padding: 250px 20px;
+}
