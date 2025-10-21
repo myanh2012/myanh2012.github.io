@@ -1,3 +1,6 @@
+body {
+  background: #fffafa;
+}
 /* ---------- NAVBAR STYLING ---------- */
 .navbar {
   display: flex;
@@ -30,7 +33,7 @@
 
 
 .navbar a:hover {
-  color: rgb(113, 185, 233);
+  color: #b2c1f4;
 }
 
 h1{
@@ -67,7 +70,7 @@ h1{
 }
 
 .intro-text h4:hover{
-    color: rgb(113, 185, 233);
+    color: #b2c1f4;
 }
 
 .intro-image img{
@@ -90,10 +93,7 @@ h1{
 
 .linked-logos img{
     width:30px;
-    height : auto;
-    border-radius: 10px;  
-    
-
+    border-radius: 100px;  
 }
 
 
@@ -102,7 +102,7 @@ h1{
     padding : 10px 20px;
     text-align: center;
     margin-top: 30px; 
-    background-color: #dde9f6; 
+    background-color: #ebeef7; 
     font-weight: 100;
 
   
@@ -118,6 +118,66 @@ h1{
     font-size: 20px;
     margin-top: 0px;
 }
+
+/*------------RESUME----------*/
+.resume {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ; 
+   padding : 20px 20px;
+}
+
+.resume h2{
+    font-size: 20px;
+}
+    
+/*------------CONTACT----------*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding:  80px 20px 100px 20px ;
+    text-align: center;
+    gap: 15px; 
+    background-color: #ebeef7; 
+    border-radius: 25px;
+    max-width: 500px;
+    margin: 0 auto; 
+    max-height: 200px;
+    margin-top: 125px;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.contact h1{
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: 90;
+
+}
+
+.contact label {
+    margin-bottom: 5px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type ="email"],textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b8d1eb;
+    
+}
+
+
+
+
 
 /*------------FOOOTER----------*/
 .footer{

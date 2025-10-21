@@ -3,13 +3,12 @@
     <head>
         <title>Contact</title>
         <link rel="stylesheet" href="styles.css">
-
-    
+ 
     </head>
+
     <body>
         <header> 
         </header>
-
 
         <nav class ="navbar", style="display: flex; justify-content: space-between; align-items: center;padding: 15px 30px;">
         <!-- Left-aligned item -->
@@ -27,36 +26,32 @@
         </ul>
         </nav>
         
-        <main>
-            <h1 class="page-title">Contact</h1>
-            <secion>
-                <p>Form</p>
-      <form>
-       
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Name" required />
+    <main>
         
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Email" />
-        
-        <label for="Message">Message</label>
-        <textarea
-          id="Message"
-          name="Message"
-          placeholder="Message"
-          required
-        ></textarea>
-        <br><br>
-        <input type="submit" value="Submit" />
-            </secion>
-            <secion></secion>
-            <secion></secion>
-            <secion></secion>
-            <secion></secion>
-        </main>
+        <section class = "contact">
+            <h1 >Contact me</h1>
+            <form id = "contact-form">
+                <label for="name">Name</label>    
+                <input type="text" id="name" name="name" placeholder="Name" required />
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="abc.ef@email.com" />
+                
+                <label for="Message here">Message</label>
+                <textarea
+                id="Message"
+                name="Message"
+                placeholder="Message"
+                required
+                ></textarea>
+              
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
 
-        <footer class="footer">
-        </footer>
+    <footer class="footer">
+    </footer>
 
     </body>
 </html>
