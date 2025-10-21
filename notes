@@ -1,0 +1,12 @@
+500s error sth wrong with back end
+400s sth wrong with client 
+
+API -applicatiob programming interface 
+
+you -----http request ---> API
+    <--------json data--------
+
+
+fetch (asynchronous fn)
+synchronous code: line by line (blocked)
+synchronous allow other code to run during processing time 
